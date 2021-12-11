@@ -13,7 +13,7 @@ and open the template in the editor.
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <script>
             $(document).ready(function (e) {
-                var conn = new WebSocket('ws://https://chatt9p.herokuapp.com//:8080'); //conectara con el websocket
+                var conn = new WebSocket('ws://localhost:8080'); //conectara con el websocket
 
                 conn.onopen = function (e) { //si la conexion es existossa
                     console.log("Conexion exitosa");
